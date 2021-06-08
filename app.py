@@ -44,6 +44,7 @@ class Hello(Resource):
 
 # adding the defined resources along with their corresponding urls
 api.add_resource(Hello, '/')
+api.add_resource(Hello, '/all')
 
 # driver function
 if __name__ == '__main__':
